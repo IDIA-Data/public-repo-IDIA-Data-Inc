@@ -8,10 +8,16 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 /**
+ * **
  * @title IDIA Governance Token
  * @author IDIA Data Inc.
  * @notice Participatory utility token for the IDIA Governance Protocol.
- *         Wyoming DUNA compliant. 10B total supply minted at deployment
+ * Wyoming DAO LLC / DUNA compliant. 
+ * * NOTICE: The rights of members in a Wyoming Decentralized Autonomous 
+ * Organization may differ from those in a standard LLC. This contract 
+ * is subject to restrictions on duties and transfers per W.S. 17-31-106.
+ *
+ *         10B total supply minted at deployment
  *         directly to 5 escrow contracts per the allocation schedule:
  *
  *           Team & Advisors ........  15%  =  1,500,000,000 IDIA
